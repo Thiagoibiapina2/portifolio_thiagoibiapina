@@ -89,6 +89,7 @@ function Project() {
     <div className={styles.container}>
       {imagens.map((imagem) => (
         <ImagemComTexto
+          key={imagem.title}
           src={imagem.src}
           alt={imagem.alt}
           texto={imagem.texto}

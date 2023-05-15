@@ -10,7 +10,7 @@ export default function Contact () {
             <div className={styles.icon}>
                 <a href="mailto:thiago.aguiar879@gmail.com" target="_blank">
                     <div className={styles.box_icon}>
-                        <Image src="/contacts/gmail.svg" width="100" height="100" />
+                        <Image src="/contacts/gmail.svg" width="100" height="100" alt="Gmail"/>
                     </div> 
                 </a>
                 <a href="mailto:thiago.aguiar879@gmail.com" target="_blank">
@@ -23,7 +23,7 @@ export default function Contact () {
             <div className={styles.icon}>
                 <a>
                     <div className={styles.box_icon}>
-                        <Image src="/contacts/telephone.svg" width="100" height="100"/>
+                        <Image src="/contacts/telephone.svg" width="100" height="100" alt="Telephone"/>
                     </div> 
                 </a>
                 <a>
@@ -36,7 +36,7 @@ export default function Contact () {
             <div className={styles.icon}>
                 <a href="https://www.linkedin.com/in/thiago-aguiar-335b6a186/" target="_blank">
                     <div class={styles.box_icon}>
-                        <Image src="/contacts/linkedin.svg" width="100" height="100"/>
+                        <Image src="/contacts/linkedin.svg" width="100" height="100" alt="Linkedin"/>
                     </div> 
                 </a>
                 <a href="https://www.linkedin.com/in/thiago-aguiar-335b6a186/" target="_blank">
@@ -49,7 +49,7 @@ export default function Contact () {
             <div className={styles.icon}>
                 <a href="https://github.com/Thiagoibiapina2" target="_blank">
                     <div class={styles.box_icon}>
-                        <Image src="/contacts/github.svg" width="100" height="100"/>
+                        <Image src="/contacts/github.svg" width="100" height="100" alt="Github"/>
                     </div> 
                 </a>
                 <a href="https://github.com/Thiagoibiapina2" target="_blank">

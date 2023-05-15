@@ -17,8 +17,6 @@
   }
   
   .imagem img {
-    width: 500px;
-    height: 400px;
     transition: filter 0.3s ease-in-out;
   }
   

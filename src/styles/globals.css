@@ -266,5 +266,14 @@ color: currentColor;
   }
 }
 
+@media (max-width: 390px) {
+  .header  h1 {
+    left: 20%;
+  }
+
+  .header nav {
+    right: 15%;
+  }
+}
 
 

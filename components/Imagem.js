@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import Image from 'next/image';
+
 function Imagem() {
   const [exibirVerMais, setExibirVerMais] = useState(false);
 
@@ -9,7 +11,7 @@ function Imagem() {
 
   return (
     <div style={{ position: 'relative' }}    className='k'>
-      <img
+      <Imagem
         className='imagem'
         src="/eu.jpg"
         alt="Descrição da imagem"
