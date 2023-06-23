@@ -218,14 +218,13 @@ color: currentColor;
   .header {
     display: flex;
     flex-direction: column;
-    height: 50vh;
   }
 
   .header nav {
     justify-content:center;
     position: relative;
     text-align: center;
-    right: -5%;
+    right: -10%;
   }
 
   .header ul {
@@ -253,7 +252,7 @@ color: currentColor;
   }
 
   .header nav {
-    right: -1%;
+    right: 2%;
   }
 }
 
@@ -268,11 +267,12 @@ color: currentColor;
 
 @media (max-width: 390px) {
   .header  h1 {
-    left: 20%;
+    left: 10%;
+    font-size: 2rem;
   }
 
   .header nav {
-    right: 15%;
+    right: 35%;
   }
 }
 

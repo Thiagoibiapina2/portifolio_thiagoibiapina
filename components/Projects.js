@@ -1,5 +1,5 @@
 import Head from 'next/head'
-//import Image from 'next/image'
+
 import styles from '../src/styles/Projects.module.css'
 
 import { useState } from 'react';
@@ -30,6 +30,25 @@ const imagens = [
     
   },
   {
+    src: '/projects/nextauth.jpg',
+    alt: 'next-auth',
+    texto: 'Next-Auth',
+    informacoes: {
+      title: 'Next-Auth',
+      description: `O site é uma aplicação interativa que  simula o login e autenticação para acessar um site, utilizando Nexth-Auth\n
+
+      Adicionei funcionalidades como:\n
+      • Utilizado Next-auth
+      • Utilizado TypeScript
+      • Estilizado com tailwind CSS
+      • Criando uma rota para quando o cadastro for feito`, 
+      video: '/projects/video4.mp4',
+      repository: 'https://github.com/Thiagoibiapina2/nextauth-2023',
+      site: 'https://nextauth-2023.vercel.app/'
+    }
+    ,
+  },
+  {
     src: '/projects/hookform.jpg',
     alt: 'Descrição da imagem 2',
     texto: 'Form - Hook Form',
@@ -41,7 +60,6 @@ const imagens = [
       • Utilizado Hook form
       • Feito validação dos campos do formulario
       • Estilizado com CSS
-      • Criando uma rota para quando o cadastro for feito
       • Adicionado responsividade`, 
       video: '/projects/video2.mp4',
       repository: 'https://github.com/Thiagoibiapina2/hook_form',
@@ -54,14 +72,14 @@ const imagens = [
     alt: 'Descrição da imagem 3',
     texto: 'Buscador de Cep',
     informacoes: {
-      title: 'DoWhile 2021 Virtual Badge',
+      title: 'Buscador de CEP',
       date: '24 de Outubro de 2021',
       description: `O Buscador de Cep é uma aplicação interativa que mostra informações do CEP através de uma API \n
 
       Funcionalidades como:\n
       • Input que guarda as informações digitadas e vai na Api e retorna os valores
       • feito as Validações necessárias
-      • Estilização com CSS puro
+      • Estilização com CSS 
       • Api utilizada - https://viacep.com.br`, 
       video: '/projects/video3.mp4',
       repository: 'https://github.com/Thiagoibiapina2/buscador_de_cep',

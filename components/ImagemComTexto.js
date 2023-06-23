@@ -36,7 +36,7 @@ function ImagemComTexto({ src, alt, texto, informacoes, isAnyInfoOpen, onInfoOpe
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
-      <Image src={src}   width={500}  height={400} alt={alt} />
+      <Image src={src}   width={300}  height={200} alt={alt} />
       {hover && <div className={styles.texto}>{texto}</div>}
       {showInfo && (
         <div className={styles.informacoesContainer} onClick={handleClose}>
