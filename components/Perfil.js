@@ -13,7 +13,7 @@ export default function Perfil() {
             <p>Desenvolvedor Front-end</p>
         </div>
         <div className={styles.actions}>
-            <a className={styles.btn1} type="text" href="/documents/Currículo thiago.pdf">Curriculo</a>
+            <a className={styles.btn1} type="text" href="/documents/Currículo thiago2023.pdf">Curriculo</a>
             <a className={styles.btn2}type="text" href="mailto:thiago.aguiar879@gmail.com" target="_blank">Entrar em contato</a>
         </div>
         </div>
