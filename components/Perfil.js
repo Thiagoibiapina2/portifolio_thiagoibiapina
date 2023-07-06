@@ -28,8 +28,10 @@ export default function Perfil() {
             <h2>Sobre mim</h2>
             <p>
                 Meu nome é Thiago e sou apaixonado pelo Desenvolvimento web, que dicidiu trilhar o caminho da programação, com
-                conhecimento  React.js, Next.js, JavaScript, TypeScript, e consumo de APIs REST. criação de componentes reutilizáveis.
-                gosto muito de aprender novas tecnologias novas  e sempre me manter atualizado dentro desse mercado
+                conhecimento  React.js, Next.js, JavaScript, TypeScript, e consumo de APIs REST, connstrção de Apis com Node, 
+                express,requisições HTTP  entre outras funçoes com com prisma e mongoDB, 
+                gosto muito de aprender novas tecnologias e sempre procuro me manter atualizado com as tecnologias 
+                mais avançadas dentro desse mercado.
               </p>
         </div>
     </div>

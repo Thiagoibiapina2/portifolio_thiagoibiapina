@@ -44,6 +44,18 @@ export default function Skills() {
         <p>Tailwind CSS</p>
         <Image src="/skills/tailwindcss.svg" width="80" height="60" alt="Tailwind CSS" />
     </div>
+    <div className={styles.box}>
+        <p>Express</p>
+        <Image src="/skills/express.svg" width="80" height="60" alt="Express" />
+    </div>
+    <div className={styles.box}>
+        <p>Prisma</p>
+        <Image src="/skills/prisma.svg" width="80" height="60" alt="Prisma" />
+    </div>
+    <div className={styles.box}>
+        <p>MongoDB</p>
+        <Image src="/skills/MongoDB.svg" width="80" height="60" alt="MongoDB" />
+    </div>
    
    
    
