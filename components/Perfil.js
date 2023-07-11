@@ -13,7 +13,7 @@ export default function Perfil() {
             <p>Desenvolvedor Front-end</p>
         </div>
         <div className={styles.actions}>
-            <a className={styles.btn1} type="text" href="/documents/Currículo thiago2023.pdf">Curriculo</a>
+            <a className={styles.btn1} type="text" href="/documents/Currículo thiago.pdf" target="_blank">Curriculo</a>
             <a className={styles.btn2}type="text" href="mailto:thiago.aguiar879@gmail.com" target="_blank">Entrar em contato</a>
         </div>
         </div>
@@ -28,7 +28,7 @@ export default function Perfil() {
             <h2>Sobre mim</h2>
             <p>
                 Meu nome é Thiago e sou apaixonado pelo Desenvolvimento web, que dicidiu trilhar o caminho da programação, com
-                conhecimento  React.js, Next.js, JavaScript, TypeScript, e consumo de APIs REST, connstrção de Apis com Node, 
+                conhecimento  React.js, Next.js, JavaScript, TypeScript, e consumo de APIs REST, construção de Apis com Node, 
                 express,requisições HTTP  entre outras funçoes com com prisma e mongoDB, 
                 gosto muito de aprender novas tecnologias e sempre procuro me manter atualizado com as tecnologias 
                 mais avançadas dentro desse mercado.
