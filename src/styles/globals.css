@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: black;
+  background-color:#1b1a1a;
 }
 
 .header {
@@ -35,7 +35,7 @@ body {
   width: 100%;
   justify-content: space-between;
   top: 0;
-  background: black;
+  background: #1b1a1a;
   padding: 1rem;
   z-index: 100;
 }
