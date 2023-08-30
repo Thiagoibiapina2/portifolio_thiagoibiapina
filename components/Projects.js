@@ -10,7 +10,7 @@ import ImagemComTexto from './ImagemComTexto';
 const imagens = [
   {
     src: '/projects/rick&morty.jpg',
-    alt: 'Descrição da imagem 1',
+    alt: 'Rick and Morty',
     texto: 'Rick and Morty',
     informacoes: {
       title: 'Rick and Morty',
@@ -50,12 +50,11 @@ const imagens = [
   },
   {
     src: '/projects/hookform.jpg',
-    alt: 'Descrição da imagem 2',
+    alt: 'Form - Hook Form',
     texto: 'Form - Hook Form',
     informacoes: {
       title: 'Form - Hook Form',
       description: `O Form  é uma aplicação interativa que  simula o cadastro em um site, que utiliza conhecimento do hook Form!\n
-
       Adicionei funcionalidades como:\n
       • Utilizado Hook form
       • Feito validação dos campos do formulario
@@ -69,11 +68,10 @@ const imagens = [
   },
   {
     src: '/projects/buscador_cep.jpg',
-    alt: 'Descrição da imagem 3',
+    alt: 'Buscador de CEP',
     texto: 'Buscador de Cep',
     informacoes: {
       title: 'Buscador de CEP',
-      date: '24 de Outubro de 2021',
       description: `O Buscador de Cep é uma aplicação interativa que mostra informações do CEP através de uma API \n
 
       Funcionalidades como:\n
@@ -84,6 +82,22 @@ const imagens = [
       video: '/projects/video3.mp4',
       repository: 'https://github.com/Thiagoibiapina2/buscador_de_cep',
       site: 'https://buscador-de-cep-beige-five.vercel.app/'
+    }
+  },
+  {
+    src: '/projects/manaus_turismo.jpg',
+    alt: 'Manaus turismo',
+    texto: 'Manaus turismo',
+    informacoes: {
+      title: 'Manaus turismo',
+      description: `O Manaus turismo é uma aplicação  que mostra informações da cidade de Manaus \n
+
+      Feito uma aplicação para testar conhecimento em CSS, onde a ideia foi fazer um 
+      site com informações de pontos turisticos da cidade de Manaus, oferecendo um bom design
+      para melhor navegação e experiencia do usuário`,
+      video: '/projects/video5.mp4',
+      repository: 'https://github.com/Thiagoibiapina2/ManausTurismo',
+      site: 'https://manaus-turismo.vercel.app/'
     }
   },
 ];

@@ -54,7 +54,7 @@ export default function Skills() {
     </div>
     <div className={styles.box}>
         <p>MongoDB</p>
-        <Image src="/skills/m  ongodb.svg" width="80" height="60" alt="MongoDB" />
+        <Image src="/skills/mongodb.svg" width="80" height="60" alt="MongoDB" />
     </div>
    
    
