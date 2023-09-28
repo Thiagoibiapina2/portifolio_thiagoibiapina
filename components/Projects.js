@@ -9,6 +9,27 @@ import ImagemComTexto from './ImagemComTexto';
 
 const imagens = [
   {
+    src: '/projects/fullstack.jpg',
+    alt: 'fullstack',
+    texto: 'fullstack',
+    informacoes: {
+      title: 'FullStack',
+      description: `O site é uma aplicação interativa que  simula o login e autenticação para acessar um site onde é possivel criar posts, em uma aplicação fullstack\n
+
+      Adicionei funcionalidades como:\n
+      • Criado Backend com node
+      • Utilizado TypeScript
+      • Utilizado node como express e prisma
+      • sistema de login e autenticação
+      • Utilizado TypeScript
+      • Estilizado com tailwind CSS
+      • utilizado sistema de  rotas `, 
+      video: '/projects/video6.mp4',
+      repository: 'https://github.com/Thiagoibiapina2/frontendTest',
+      site: 'https://frontend-test-orpin.vercel.app'
+    }
+  },
+  {
     src: '/projects/rick&morty.jpg',
     alt: 'Rick and Morty',
     texto: 'Rick and Morty',
@@ -27,7 +48,6 @@ const imagens = [
       repository: 'https://github.com/Thiagoibiapina2/rick-morty_nextjs',
       site: 'https://rick-morty-nextjs-1ytx7gz98-thiagoibiapina2.vercel.app/'
     }
-    
   },
   {
     src: '/projects/nextauth.jpg',
@@ -45,8 +65,7 @@ const imagens = [
       video: '/projects/video4.mp4',
       repository: 'https://github.com/Thiagoibiapina2/nextauth-2023',
       site: 'https://nextauth-2023.vercel.app/'
-    }
-    ,
+    },
   },
   {
     src: '/projects/hookform.jpg',
@@ -64,7 +83,6 @@ const imagens = [
       repository: 'https://github.com/Thiagoibiapina2/hook_form',
       site: 'https://hook-form-murex.vercel.app/'
     }
-    ,
   },
   {
     src: '/projects/buscador_cep.jpg',
@@ -100,6 +118,7 @@ const imagens = [
       site: 'https://manaus-turismo.vercel.app/'
     }
   },
+  
 ];
 
 function Project() {

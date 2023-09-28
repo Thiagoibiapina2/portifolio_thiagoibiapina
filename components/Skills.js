@@ -56,9 +56,6 @@ export default function Skills() {
         <p>MongoDB</p>
         <Image src="/skills/mongodb.svg" width="80" height="60" alt="MongoDB" />
     </div>
-   
-   
-   
 </div>
 </div>
     )
